@@ -1,33 +1,48 @@
+@font-face {
+    src: url(fonts/EraserRegular.ttf);
+    font-family:EraserRegular;
+}
+
+.mala {
+
+    width: 10%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
 body {
-    background-color: rgb(38, 94, 43);
+    background-color: #204223;
     text-align: center;
+    background-image: url("https://wallpaperaccess.com/full/4199051.jpg");
   }
   h1 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 40px;
-    font-family: 'Permanent Marker', cursive;
+    font-family: EraserRegular
   }
   h2 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 25px;
-    font-family: 'Permanent Marker', cursive;
+    font-family: EraserRegular
   }
   p {
     color: rgb(255, 255, 255);
     font-size: 20px;
-    font-family: 'Permanent Marker', cursive;
+    font-family: EraserRegular
   }
   .izvade{
     color: rgb(255, 255, 255);
     font-size: 20px;
-    font-family: 'Permanent Marker', cursive;
+    font-family: EraserRegular
   }
  
       
 img{
-  width: 200px;
+  width: 400px;
 }
 .btn{
   margin-left: auto;
@@ -38,16 +53,16 @@ font-size: 15px;
 line-height: 1;
 padding: 16px 30px; 
 border-radius: 30px;
-background:rgb(236, 215, 18);
+background:rgb(234,182,118);
 color: rgb(0, 0, 0);
 cursor: pointer;
 transition: all 0.3s linear;
 
 }
 .btn:hover{
-  background: rgb(230, 209, 18);
+  background: rgb(231, 172, 99);
 
 }
 .btn:active{
-  background: orange;
+  background: rgb(236, 164, 75);
 }

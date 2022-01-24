@@ -22,7 +22,7 @@ function perimetrs(m1, m2, m3) {
     const p = m1 + m2 + m3;
     console.log("Perimetrs =",p)
     return p;
-}
+} 
 
 function vienadmalu() {
 
@@ -39,13 +39,13 @@ function calculate() {
     const area = Math.sqrt(pusp * (pusp - m1) * (pusp - m2) * (pusp - m3));
 
     if (m1 == undefined || m2 == undefined || m3 == undefined) {
-        return "Nav šāda trijstūra";
+        return "Trijsturis ar sadam malam neeksiste.";
     } else if (m1 == m2 && m2 == m3 && m3 == m1) {
-        return "Vienādmalu trijstūris. Trijstūra laukums ir " + area + " kvadrātcentimetri un tā perimetrs ir " + perimetrs(m1, m2, m3) +" cm.";
+        return "Vienadmalu trijsturis. Trijstura laukums ir " + area + " kvadratcentimetri ta perimetrs ir " + perimetrs(m1, m2, m3) +" cm.";
     } else if (m1 == m2 || m2 == m3 || m1 == m3) {
-        return "Vienāsānu trijstūris. Trijstūra laukums ir " + area + " kvadrātcentimetri un tā perimetrs ir " + perimetrs(m1, m2, m3) +" cm.";
+        return "Vienadsanu trijsturis. Trijstura laukums ir " + area + " kvadratcentimetri un ta perimetrs ir " + perimetrs(m1, m2, m3) +" cm.";
     } else if (m1 != m2 || m2 != m3 || m1 != m3) {
-        return "Dažādmalu trijstūris. Trijstūra laukums ir " + area + " kvadrātcentimetri un tā perimetrs ir " + perimetrs(m1, m2, m3) +" cm.";
+        return "Dazadmalu trijsturis. Trijstura laukums ir " + area + " kvadratcentimetri un ta perimetrs ir " + perimetrs(m1, m2, m3) +" cm.";
     }
 
 
