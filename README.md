@@ -1,2 +1,2 @@
 # trijsturi
-https://github.com/ajaneks/trijsturi
+https://ajaneks.github.io/trijsturi/
